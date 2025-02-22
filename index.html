@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Playlist</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎵 My Playlist</h1>
+        
+        <!-- Input Form -->
+        <div class="add-section">
+            <input type="text" id="songTitle" placeholder="Song title">
+            <input type="text" id="artist" placeholder="Artist name">
+            <input type="text" id="duration" placeholder="Duration (e.g., 3:45)">
+            <button onclick="addSong()">Add Song</button>
+        </div>
+
+        <!-- Playlist Display -->
+        <div id="playlist">
+            <!-- Songs will be added here -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
